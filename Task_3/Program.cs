@@ -1,15 +1,15 @@
 ﻿int n = new Random().Next(1,10);
-int find = 6;
-int find2 = 7;
-Console.Write("Случайное число = ");
+int saturday = 6;
+int sunday = 7;
+Console.Write("Цифра, обозначающая день недели = ");
 Console.Write(n);
 Console.WriteLine();
 
-if(n==find)
+if(n==saturday)
 {
     Console.WriteLine("ДА");
 }
-if(n==find2)
+if(n==sunday)
 {
     Console.WriteLine("ДА");
 }
