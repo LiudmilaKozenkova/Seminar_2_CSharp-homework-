@@ -1,4 +1,4 @@
-﻿int count = new Random().Next(2, 4);
+﻿int count = new Random().Next(1,10);
 int[] array = new int[count];
 int index = 0;
 Console.Write("Count = ");
